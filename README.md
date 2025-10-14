@@ -2,7 +2,7 @@
 
 
 
-A Retrieval-Augmented Generation (RAG) system for document question-answering using local LLMs. 100% free, no API keys required!
+This project demonstrates a complete Retrieval-Augmented Generation (RAG) pipeline for document-based question answering using local large language models (LLMs). It integrates document ingestion, text chunking, vector embedding, and semantic retrieval with FAISS for efficient similarity search. The retrieved context is dynamically combined with user queries and passed to a local LLM via Ollama, enabling accurate, context aware answers without relying on external APIs. The system is deployed with a Streamlit web interface, offering an intuitive user experience for uploading files, processing documents, and interacting with the model. All 100% locally and offline.
 
 
 
@@ -167,7 +167,9 @@ Via Web UI
 
 Lutfihadi
 
-For research and demonstration purposes as part of AI/ML portfolio projects
+## Disclaimer
+
+This project is for research and demonstration purposes as part of AI/ML portfolio projects
 
 ---
 
