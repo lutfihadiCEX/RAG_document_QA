@@ -66,7 +66,7 @@ Installation
 
 git clone https://github.com/lutfihadiCEX/RAG_document_QA.git
 
-cd rag-document-qa
+cd RAG_document_QA
 
 ```
 
