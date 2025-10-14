@@ -16,27 +16,27 @@ A Retrieval-Augmented Generation (RAG) system for document question-answering us
 
 This project demonstrates a complete RAG pipeline that allows users to:
 
-*Upload documents (PDF, TXT, DOCX)
+- Upload documents (PDF, TXT, DOCX)
 
-*Ask natural language questions about the content
+- Ask natural language questions about the content
 
-*Get accurate answers with source citations
+- Get accurate answers with source citations
 
-*Run everything locally with no cloud costs
+- Run everything locally with no cloud costs
 
 
 
 Key Features:
 
--Local LLM execution (Llama 3.2, Mistral, Phi-3)
+- Local LLM execution (Llama 3.2, Mistral, Phi-3)
 
--Vector similarity search with FAISS
+- Vector similarity search with FAISS
 
--Document chunking with context preservation
+- Document chunking with context preservation
 
--Source citation and transparency
+- Source citation and transparency
 
--Web UI with Streamlit
+- Web UI with Streamlit
 
 
 
@@ -48,11 +48,11 @@ Key Features:
 
 Prerequisites
 
--Python 3.10+
+- Python 3.10+
 
--Ollama installed
+- Ollama installed
 
--8GB+ RAM recommended
+- 8GB+ RAM recommended & Dedicated GPU
 
 
 
@@ -126,6 +126,7 @@ If you already have an environment set up (e.g. base), you can skip creating a n
 ## 👨‍💻 Usage
 
 Via Web UI
+
 1.Upload Documents: Click "Upload Documents" in sidebar
 
 2.Process: Click "Process Documents" button
@@ -138,27 +139,27 @@ Via Web UI
 
 ## ☰ Tech Stack
 
--LangChain - Document loading, chunking, and RAG pipeline
+- 🦜 LangChain - Document loading, chunking, and RAG pipeline
 
--FAISS - Vector similarity search for document retrieval
+- FAISS - Vector similarity search for document retrieval
 
--Sentence-Transformers - Embedding generation
+- Sentence-Transformers - Embedding generation
 
--Ollama - Local LLM runtime (Llama 3.2, Mistral, Phi-3)
+- 🦙 Ollama - Local LLM runtime (Llama 3.2, Mistral, Phi-3)
 
--Streamlit - Front-end UI
+- Streamlit - Front-end UI
 
 ---
 
 ## Acknowledgments
 
--LangChain for the RAG framework
+- 🦜 LangChain for the RAG framework
 
--Ollama for local LLM inference
+- 🦙 Ollama for local LLM inference
 
--Hugging Face for embeddings
+- 🤗 Hugging Face for embeddings
 
--FAISS for vector search
+- FAISS for vector search
 
 ---
 
