@@ -1,4 +1,4 @@
-\# RAG Document QA System
+# 🧠 RAG Document QA System
 
 
 
@@ -10,7 +10,7 @@ A Retrieval-Augmented Generation (RAG) system for document question-answering us
 
 
 
-\## Overview
+## 🔎 Overview
 
 
 
@@ -44,7 +44,7 @@ Key Features:
 
 
 
-\## Quick Start \& Setup
+## ⚡ Quick Start & Setup
 
 Prerequisites
 
@@ -64,7 +64,7 @@ Installation
 
 ```bash
 
-git clone https://github.com/lutfihadiCEX/rag-document-qa.git
+git clone https://github.com/lutfihadiCEX/RAG_document_QA.git
 
 cd rag-document-qa
 
@@ -79,7 +79,7 @@ conda activate rag
 
 ```
 
-3\. Install dependencies
+3. Install dependencies
 
 ```bash
 
@@ -89,21 +89,21 @@ pip install -r requirements.txt
 
 
 
-4\. Install and start Ollama
+4. Install and start Ollama
 
 ```bash
 
-\# Install Ollama from https://ollama.ai
+# Install Ollama from https://ollama.ai
 
 
 
-\# Pull a model
+# Pull a model
 
 ollama pull llama3.2
 
 
 
-\# Start Ollama service (keep terminal open)
+# Start Ollama service (keep terminal open)
 
 ollama serve
 
@@ -111,7 +111,7 @@ ollama serve
 
 
 
-5\. Run the application
+5. Run the application
 
 ```bash
 
@@ -119,11 +119,12 @@ streamlit run ui/streamlit\_app.py
 
 ```
 
-P/S If you already have an environment set up (e.g. base), you can skip creating a new one — but using a dedicated environment avoids version conflicts.
+If you already have an environment set up (e.g. base), you can skip creating a new one — but using a dedicated environment avoids version conflicts.
 
 ---
 
-## Usage
+## 👨‍💻 Usage
+
 Via Web UI
 1.Upload Documents: Click "Upload Documents" in sidebar
 2.Process: Click "Process Documents" button
@@ -132,7 +133,8 @@ Via Web UI
 
 ---
 
-## Tech Stack
+## ☰ Tech Stack
+
 -LangChain - Document loading, chunking, and RAG pipeline
 
 -FAISS - Vector similarity search for document retrieval
@@ -146,6 +148,7 @@ Via Web UI
 ---
 
 ## Acknowledgments
+
 -LangChain for the RAG framework
 -Ollama for local LLM inference
 -Hugging Face for embeddings
@@ -160,6 +163,7 @@ For research and demonstration purposes as part of AI/ML portfolio projects
 ---
 
 ## Future improvements
+
 - Add multi-document context memory  
 - Integrate document summarization using LangChain chains  
 - Dockerize for easier deployment  
