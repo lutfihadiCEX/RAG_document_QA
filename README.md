@@ -16,13 +16,13 @@ A Retrieval-Augmented Generation (RAG) system for document question-answering us
 
 This project demonstrates a complete RAG pipeline that allows users to:
 
--Upload documents (PDF, TXT, DOCX)
+*Upload documents (PDF, TXT, DOCX)
 
--Ask natural language questions about the content
+*Ask natural language questions about the content
 
--Get accurate answers with source citations
+*Get accurate answers with source citations
 
--Run everything locally with no cloud costs
+*Run everything locally with no cloud costs
 
 
 
@@ -127,8 +127,11 @@ If you already have an environment set up (e.g. base), you can skip creating a n
 
 Via Web UI
 1.Upload Documents: Click "Upload Documents" in sidebar
+
 2.Process: Click "Process Documents" button
+
 3.Ask Questions: Type questions in the chat interface
+
 4.View Sources: Expand answers to see source citations
 
 ---
@@ -150,22 +153,30 @@ Via Web UI
 ## Acknowledgments
 
 -LangChain for the RAG framework
+
 -Ollama for local LLM inference
+
 -Hugging Face for embeddings
+
 -FAISS for vector search
 
 ---
 
 ## Author
+
 Lutfihadi
+
 For research and demonstration purposes as part of AI/ML portfolio projects
 
 ---
 
 ## Future improvements
 
-- Add multi-document context memory  
-- Integrate document summarization using LangChain chains  
-- Dockerize for easier deployment  
+- Add multi-document context memory
+  
+- Integrate document summarization using LangChain chains
+   
+- Dockerize for easier deployment
+   
 - Extend support for other languages documents
 
