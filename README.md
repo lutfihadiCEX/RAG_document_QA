@@ -48,8 +48,6 @@ Key Features:
 ---
 
 ## 💻 Demo
-![App Screenshot](assets/D1.png) ![App Screenshot](assets/D2.png)
-        ![App Screenshot](assets/D3.png)
 
 <p align="center">
   <img src="assets/D1.png" alt="Overview" width="45%"/>
@@ -57,7 +55,7 @@ Key Features:
 </p>
 
 <p align="center">
-  <img src="assets/D3.png" alt="App Overview" width="600"/>
+  <img src="assets/D3.png" alt="App Overview" width="400"/>
 </p>
 
 
