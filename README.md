@@ -52,12 +52,15 @@ Key Features:
         ![App Screenshot](assets/D3.png)
 
 <p align="center">
-  <img src="D1.png" alt="App Overview" width="600"/>
+  <img src="assets/D1.png" alt="Overview" width="45%"/>
+  <img src="assets/D2.png" alt="Upload" width="45%"/>
 </p>
 
 <p align="center">
-  <img src="assets/D3.png" alt="Example Q&A Result" width="600"/>
+  <img src="assets/D3.png" alt="App Overview" width="600"/>
 </p>
+
+
 ---
 
 
