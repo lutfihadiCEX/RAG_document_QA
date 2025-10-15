@@ -43,7 +43,10 @@ Key Features:
 ---
 
 ## 🟦 Architecture
-![RAG Architecture Diagram](assets/Architecture.png)
+
+<p align="center">
+  <img src="assets/Architecture.png" alt="App Overview" width="600"/>
+</p>
 
 ---
 
