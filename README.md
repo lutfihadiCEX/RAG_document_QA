@@ -43,6 +43,7 @@ Key Features:
 ---
 
 ## 🟦 Architecture
+![RAG Architecture Diagram](assets/Architecture.png)
 
 
 
