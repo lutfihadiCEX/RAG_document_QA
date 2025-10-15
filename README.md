@@ -42,6 +42,8 @@ Key Features:
 
 ---
 
+## 🟦 Architecture
+
 
 
 ## ⚡ Quick Start & Setup
