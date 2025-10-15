@@ -45,6 +45,13 @@ Key Features:
 ## 🟦 Architecture
 ![RAG Architecture Diagram](assets/Architecture.png)
 
+---
+
+## 💻 Demo
+![App Screenshot](assets/D1.png) ![App Screenshot](assets/D2.png)
+        ![App Screenshot](assets/D3.png)
+
+---
 
 
 ## ⚡ Quick Start & Setup
