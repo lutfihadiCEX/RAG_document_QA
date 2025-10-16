@@ -120,8 +120,9 @@ pip install -r requirements.txt
 
 # Pull a model
 
-ollama pull llama3.2
-
+ollama pull llama3.2       # Recommended - default
+ollama pull mistral        # Optional
+ollama pull phi3           # Optional
 
 
 # Start Ollama service (keep terminal open)
