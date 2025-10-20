@@ -191,7 +191,7 @@ Lutfihadi
 
 ## Disclaimer
 
-This project is for research and demonstration purposes as part of AI/ML portfolio projects
+This project is for research purposes as part of GenAI exploring and learning.
 
 ---
 
