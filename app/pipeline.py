@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 class RAGPipeline:
-    """Retrieval-Augmented Generation pipeline for document QA"""
+    """RAG pipeline that answers questions from indexed documents."""
     
     def __init__(self, vectorstore: FAISS, model_name: str = "llama3.2", temperature: float = 0.7):
         """
