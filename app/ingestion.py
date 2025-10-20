@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 class DocumentIngestion:
-    """Handles document loading, processing, and indexing"""
+    """Loads PDFs, Word docs, or text files and builds a FAISS index for retrieval."""
     
     def __init__(self, chunk_size: int = 1000, chunk_overlap: int = 200):
         """
@@ -131,7 +131,7 @@ class DocumentIngestion:
         )
         logger.info(f"Vector store loaded from {path}")
         return vectorstore
-
+# Might try Chroma later for possible incremental updates
 
 # Example usage
 if __name__ == "__main__":
