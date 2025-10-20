@@ -47,7 +47,7 @@ class RAGPipeline:
     
     def _create_prompt_template(self) -> PromptTemplate:
         """Create a custom prompt template for the LLM"""
-        template = """You are a helpful AI assistant answering questions based on provided documents.
+        template = """You are a helpful Q&A assistant answering questions based on provided documents.
 
 Use the following context to answer the question accurately and concisely.
 If the answer is not in the context, say "I don't have enough information to answer this question."
