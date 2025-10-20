@@ -191,7 +191,7 @@ Lutfihadi
 
 ## Disclaimer
 
-This project is for research purposes as part of GenAI exploring and learning.
+This project is for research purposes as part of GenAI exploring and learning. Not intended for production use.
 
 ---
 
