@@ -144,7 +144,7 @@ with col2:
     else:
         st.info("⬅️ Upload and process documents to get started")
 
-# Question answering interface
+# Main Q&A section — this is where user asks questions after docs are processed
 if st.session_state.rag_pipeline:
     st.divider()
     st.header("💭 Ask Questions")
